@@ -4,49 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--the head of the site-->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo-link link"
-          >WEB <span class="link-studio">Studio</span></a
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="./index.html" class="header-logo link"
+          >WEB<span>STUDIO</span></a
         >
-        <ul class="nav-list list">
-          <li>
-            <a href="./index.html" class="nav-link link">Studio</a>
+        <ul class="header-menu list">
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
-          <li>
-            <a href="" class="nav-link link">Contacts</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="header-adr list">
+          <li class="header-adr-item">
+            <a class="header-mail-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-adr-item">
+            <a class="header-adr-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
+
     <!--the main part of the site-->
     <main>
       <section>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+        <ul class="list">
+          <li><button type="button" class="hero-btn">All</button></li>
+          <li><button type="button" class="hero-btn">Web Site</button></li>
+          <li><button type="button" class="hero-btn">App</button></li>
+          <li><button type="button" class="hero-btn">Design</button></li>
+          <li><button type="button" class="hero-btn">Marketing</button></li>
         </ul>
       </section>
-<!-- First sektion with photos -->
+      <!-- First sektion with photos -->
       <section>
         <h2 hidden>Text</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/imgBankApp.jpg"
@@ -54,30 +75,35 @@
               width="360"
               height="300"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="hero-advantages">Banking App Interface Concept</h3>
+            <p class="hero-advantages-text">App</p>
           </li>
           <li>
             <img
-            src="./images/imgPaument.jpg" alt="Cashless Payment"
-            width="360" height="300"
+              src="./images/imgPaument.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="hero-advantages">Cashless Payment</h3>
+            <p class="hero-advantages-text">Marketing</p>
           </li>
           <li>
             <img
-            src="./images/imgMeditation.jpg" alt="Meditation App"
-            width="360" height="300"
+              src="./images/imgMeditation.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="hero-advantages">Meditation App</h3>
+            <p class="hero-advantages-text">App</p>
           </li>
         </ul>
       </section>
-<!--second section with photos-->
+      <!--second section with photos-->
       <section>
         <h2 hidden>Text</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/imgTaxiSerw.jpg"
@@ -85,8 +111,8 @@
               width="360"
               height="300"
             />
-             <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="hero-advantages">Taxi Service</h3>
+            <p class="hero-advantages-text">Marketing</p>
           </li>
           <li>
             <img
@@ -95,8 +121,8 @@
               width="360"
               height="300"
             />
-             <h3>Screen Illustrationsp</h3>
-            <p>Design</p>
+            <h3 class="hero-advantages">Screen Illustrationsp</h3>
+            <p class="hero-advantages-text">Design</p>
           </li>
           <li>
             <img
@@ -105,15 +131,15 @@
               width="360"
               height="300"
             />
-             <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="hero-advantages">Online Courses</h3>
+            <p class="hero-advantages-text">Marketing</p>
           </li>
         </ul>
       </section>
-<!--third section with photos-->
+      <!--third section with photos-->
       <section>
-         <h2 hidden>Text</h2>
-        <ul>
+        <h2 hidden>Text</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/imgInstagram.jpg"
@@ -121,8 +147,8 @@
               width="360"
               height="300"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="hero-advantages">Instagram Stories Concept</h3>
+            <p class="hero-advantages-text">Design</p>
           </li>
           <li>
             <img
@@ -131,8 +157,8 @@
               width="360"
               height="300"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="hero-advantages">Organic Food</h3>
+            <p class="hero-advantages-text">Web Site</p>
           </li>
           <li>
             <img
@@ -141,18 +167,17 @@
               width="360"
               height="300"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="hero-advantages">Fresh Coffee</h3>
+            <p class="hero-advantages-text">Web Site</p>
           </li>
-
         </ul>
       </section>
     </main>
-    
+
     <!--footer part-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="dark-bgr">
+      <a href="./index.html" class="header-logo link">WEB<span>STUDIO</span></a>
+      <p class="hero-advantages-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
