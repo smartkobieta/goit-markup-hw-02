@@ -5,18 +5,19 @@
 }
 
 body {
-  background: #e5e5e5;
-  font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #434455;
+  
 }
 
 .header-logo {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 .link {
   text-decoration: none;
@@ -38,27 +39,22 @@ body {
 }
 
 .header-menu-link:is(:hover, :focus) {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /**-------------------HERO--------**/
 
-.header-adr-link {
+.adres-link {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.50;
   color: var(--second-text-color);
+  letter-spacing: 0.02em
 }
 
-.header-mail-link {
-  ont-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--second-text-color);
-}
-
-.header-mail-link:is(:hover, :focus) {
-  color: #4d5ae5;
+.mail:is(:hover, :focus) {
+  color: #404bbf;
 }
 
 .hero {
@@ -70,10 +66,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
+  text-align: center;
+letter-spacing: 0.02em;
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto"; sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,7 +80,8 @@ body {
   background: #4d5ae5;
 }
 .hero-btn:is(:hover, :focus) {
-  color: #404bbf;
+  background-color: #404BBF;
+cursor: pointer;
 }
 /*?----------------ADVANTAGES----------?*/
 
@@ -92,6 +91,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center
+  text-transform: capitalize
 }
 
 .hero-advantages-text {
@@ -115,3 +116,4 @@ body {
   line-height: 1.11px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
