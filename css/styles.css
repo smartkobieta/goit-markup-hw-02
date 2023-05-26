@@ -46,15 +46,15 @@ body {
 /**-------------------HERO--------**/
 
 .adres-link {
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--second-text-color);
   letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
-.mail:is(:hover, :focus) {
+.adres-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -120,12 +120,66 @@ body {
   text-transform: capitalize;
   background-color: #ffffff;
   text-align: center;
-  background-color: #f4f4fd;
 }
-.team {
-  background-color: var(--main-text-color);
+.text-footer {
+  color: #f4f4fd;
+}
+.result {
+  background-color: #f4f4fd;
 }
 
 .dark-bgr {
   background-color: var(--hero-text-color);
+}
+
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.hero-button {
+font-family: 'Roboto'; sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+}
+
+.hero-button:is(:hover, :focus) {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.portfolio-pictures {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.portfolio-text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
 }
