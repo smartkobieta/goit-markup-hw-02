@@ -131,6 +131,10 @@ font-style: normal;
   background-color:var(--team-text-color);
 }
 
+.team-menu-item {
+  background-color: var(--main-text-color);
+}
+
 .dark-bgr {
   background-color: var(--hero-text-color);
 }
@@ -142,8 +146,6 @@ font-style: normal;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--team-text-color);
 }
 
 .hero-button {
@@ -154,12 +156,12 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5;
-background: #F4F4FD;
+color: #4d5ae5
+background-color: #F4F4FD;
 }
 
 .hero-button:is(:hover, :focus) {
-  background-color: #404bbf;
+  background-color:#404BBF;
   cursor: pointer;
 }
 
@@ -180,4 +182,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--second-text-color);
+}
+
+.footer {
+  color: #F4F4FD;
+}
+.foto-item {
+  background:var(--main-text-color)
+}
+.button-text {
+  color: #4D5AE5;
 }
