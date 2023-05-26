@@ -122,7 +122,6 @@ font-style: normal;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  background-color: #ffffff;
   text-align: center;
 }
 .text-footer {
@@ -142,7 +141,6 @@ font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--team-text-color);
@@ -178,7 +176,6 @@ color: var(--hero-text-color);
 .portfolio-text {
   font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
